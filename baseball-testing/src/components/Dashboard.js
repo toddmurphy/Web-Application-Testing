@@ -5,8 +5,7 @@ const Dashboard = () => {
     // need four 'useState' for strike, balls, fouls, hits
     const [strikes, setStrikes] = useState(0);
     const [balls, setBalls] = useState(0);
-    const [fouls, setFouls] = useState(0);
-    const [hits, setHits] = useState(0);
+    
 
     //create functions for --> strikes, balls, fouls, and hits
 
@@ -30,7 +29,7 @@ const Dashboard = () => {
 
     //fouls
     const foulsMissed = () => {
-        if (strikes == 2) {
+        if (strikes === 2) {
             setStrikes(strikes)
         } else {
             setStrikes(strikes + 1)

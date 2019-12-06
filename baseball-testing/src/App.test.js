@@ -17,8 +17,6 @@ test('baseball scoreboard title displays', () => {
 
 })
 
-
-
 // test if the 'Balls' title is on the page
 test('Balls title is on the page', () => {
   const { getByText } = render(<Display />)
