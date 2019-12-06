@@ -48,7 +48,6 @@ const Dashboard = () => {
 
         <div>
             <Display strikes={strikes} balls={balls} />
-            <h3>Dashboard component</h3>
             <button onClick={() => strikesHit()} >Strike</button>
             <button onClick={() => ballsSucked()}>Ball</button>
             <button onClick={() => foulsMissed()} >Foul</button>

@@ -7,8 +7,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>Baseball Scoreboard</h1>
-        {/* <Display /> */}
+        <h1 data-testid='scoreboard-title'>Baseball Scoreboard</h1>
         <Dashboard />
       </div>
     </div>

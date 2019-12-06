@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
 const Display = (props) => {
+    const {balls, strikes} = props;
 
     return (
         <div>
-            <h2>Display component</h2>
-            <div>Balls: {props.balls}</div>
-            <div>Strikes: {props.strikes}</div>
+            <div data-testid='balls-title'>Balls {balls}</div>
+            <div data-testid='strikes-title'>Strikes {strikes}</div>
         </div>
     )
 }
