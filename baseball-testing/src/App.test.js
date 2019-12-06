@@ -1,5 +1,5 @@
 import React from 'react';
-import { render} from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from './App';
 import Display from './components/Display';
 
@@ -25,7 +25,7 @@ test('Balls title is on the page', () => {
 })
 
 
-// test if the 'Strikes' title is on the page
+// Test if the 'Strikes' title is on the page
 test('Strikes title is on the page', () => {
   const { getByText } = render(<Display />)
 
